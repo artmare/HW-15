@@ -1,0 +1,41 @@
+.holder{
+  display: flex;
+  width: 500px;
+  height: 500px;
+  flex-wrap: wrap;
+}
+
+.i1{
+  order: 1;
+  width: 50%;
+  background-color: red;
+  flex-grow: 2;
+}
+
+.i2{
+  order: 4;
+  width: calc(100%/3);
+  background-color: blue;
+  /* flex-grow: 1; */
+}
+
+.i3{
+  order: 3;
+  width: calc(100%/3);
+  background-color: purple;
+  /* flex-grow: 1; */
+}
+
+.i4{
+  order: 5;
+  width: calc(100%/3);
+  background-color: green;
+  /* flex-grow: 1; */
+}
+
+.i5{
+  order: 2;
+  width: 50%;
+  background-color: yellow;
+  /* flex-grow: 2; */
+}
